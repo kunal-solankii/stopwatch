@@ -1,0 +1,31 @@
+.button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    border: none;
+    min-width: 100px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.default {
+    background: #7E8EF1;
+}
+
+.default:hover {
+    background: #615EFC;
+}
+
+.noBorder {
+    border: none;
+    background: none;
+    color: #8e8e8e;
+}
+
+.noBorder:hover {
+    color: black;
+}

@@ -1,0 +1,27 @@
+.item-listing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item-listing__list-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 80px;
+    overflow: auto;
+    gap: 5px;
+}
+
+.item-listing__list-container__list {
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+}
+
+.item-listing__list-container__no-data {
+    font-size: 12px;
+    padding: 5px;
+    color: #8e8e8e;
+}

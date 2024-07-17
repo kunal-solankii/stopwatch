@@ -1,0 +1,28 @@
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+}
+
+.stopwatch__timestamp {
+    font-size: 28px;
+    padding: 20px 0px;
+    font-weight: 500;
+}
+
+.stopwatch__actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.stopwatch__history {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
